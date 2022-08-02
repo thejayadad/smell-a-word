@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        display: flex;
+        height: 100vh;
+        width: 70vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxes-container {
+    width: 45%;
+    float: left;
+    border: 2px solid black;
+}
+
+.boxes {
+    float: left;
+    padding: 37px 20px;
+    width: 25%;
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.fill-container {
+    width: 45%; 
+    float: right;
+    border: 2px solid black;
+    height: 30px;
+}
+
+.fill-container-over {
+    border: 2px dashed rgb(87, 87, 87);
+}
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center">Spell a Word</h2>
+    <div class="fill-container"></div>
+    <br>
+      <div class="boxes-container">
+          <div class="boxes" draggable="true">A</div>
+          <div class="boxes" draggable="true">N</div>
+          <div class="boxes" draggable="true">C</div>
+          <div class="boxes" draggable="true">D</div>
+          <div class="boxes" draggable="true">Z</div>
+          <div class="boxes" draggable="true">R</div>
+          <div class="boxes" draggable="true">G</div>
+          <div class="boxes" draggable="true">O</div>
+          <div class="boxes" draggable="true">J</div>
+          <div class="boxes" draggable="true">K</div>
+          <div class="boxes" draggable="true">L</div>
+          <div class="boxes" draggable="true">M</div>
+      </div>
+
+
+      
+      </div>
+  
+
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
